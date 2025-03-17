@@ -81,8 +81,8 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*RAWANA MD Power Full Whatsapp Bot*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/+94757050022?text=_Bot_Deploy*\n\n*Github*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `*RAWANA MD Whatsapp Bot*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/+94757050022?text=_Bot_Deploy*\n\n*Github*\n\n*https://github.com/SL-FRAMEXTEAM/RAWANA-MD*`;
+            const mg = `🛑 *Do not share this code to anyone* `;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://github.com/SL-FRAMEXTEAM/EXAMPLE_DATABASE/blob/main/pairimage/Rawana%20md%20image.jpg?raw=true",
